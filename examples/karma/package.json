@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:mocha && npm run test:jasmine",
-    "test:mocha": "karma start ./mocha/karma.conf.js",
+    "test:mocha": "karma start ./jasmine/karma.conf.js",
     "test:jasmine": "karma start ./mocha/karma.conf.js"
   },
   "author": "",
